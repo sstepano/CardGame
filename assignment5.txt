@@ -1,0 +1,1 @@
+SELECT countryId FROM CountryPopulation t where t.population > (SELECT population FROM CountryPopulation s where s.countryId=001);
